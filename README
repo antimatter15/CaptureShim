@@ -1,0 +1,4 @@
+Flash-based CamShim-based HTML5 Capture API-ish Shim
+====================================================
+
+It doesn't truly cover the entire capture api. In fact, all it covers is the first example they give on using the navigator.device.captureImage function. I can't even figure out if that even complies with the rest of the spec because they seem to be accessing a uri property of MediaFile, which is only defined as an object that extends inherits from File with the extra "format" attribute.
